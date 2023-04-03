@@ -1,8 +1,11 @@
-
 import streamlit as st
 import pickle
 import pandas as pd
 import requests
+
+from pathlib import Path
+
+pkl_path = Path(__file__).parents[1]
 
 
 def fetch_poster(movie_id):
