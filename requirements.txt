@@ -1,0 +1,5 @@
+streamlit
+pickle
+requests
+scikit-learn
+
